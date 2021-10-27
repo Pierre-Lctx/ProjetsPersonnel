@@ -143,7 +143,6 @@ void interruptionButton()
   if (digitalRead(portButton) == 1)
     {
       modeStandardCheck = !modeStandardCheck;
-      Serial.println("interruption");
     }
 }
 
@@ -190,7 +189,6 @@ void initialisation()
   OFF(portLEDJaune);
 
   pinMode(portLEDVerte, OUTPUT);        //Déclaration de la LED Verte en tant que sortie
-  pinMode(portLEDJaune, OUTPUT);        //Déclaration de la LED Rouge en tant que sortie
   pinMode(portLEDJaune, OUTPUT);      //Déclaration de la LED Jaune en tant que sortie
   pinMode(portButton, INPUT);       //Déclaration du bouton en tant qu'entrée
 
