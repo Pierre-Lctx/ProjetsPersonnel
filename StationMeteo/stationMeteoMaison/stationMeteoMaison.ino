@@ -1,7 +1,6 @@
 #include <LiquidCrystal.h>
 #include <DHT.h>
 
-bool checkGetData = true;          //Déclaration de la variable de check qui permet d'acquérir des données
 bool modeStandardCheck = true;        //Variable permettant d'identifier le mode en cours (1 correspond au mode standard et le 2 au mode configuration)
 
 const static int portLEDVerte = 8;      //Port de la LED verte
